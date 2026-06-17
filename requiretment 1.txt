@@ -1,0 +1,5 @@
+import pandas as pd
+
+df = pd.read_csv('asia_fuel_prices_detailed.csv')
+print(df.head())
+print(df.info())
